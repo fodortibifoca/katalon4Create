@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search for parameter 4Create on google and verify correct result is displayed first.</description>
+   <name>TC-GoogleSearch-English_1</name>
+   <tag>4Create</tag>
+   <comment></comment>
+   <testCaseGuid>fa9232ae-1393-4466-9310-a2d2214b97b6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>76ed5a8b-ac3c-44fa-8405-2557b575a601</id>
+      <masked>false</masked>
+      <name>urlEng</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://4createsoft.com/'</defaultValue>
+      <description></description>
+      <id>f7417a65-2de4-4375-82bd-0cba5e4007af</id>
+      <masked>false</masked>
+      <name>url4Create</name>
+   </variable>
+</TestCaseEntity>

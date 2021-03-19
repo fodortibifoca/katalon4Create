@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>30</initValue>
+      <name>TimeOut</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4Create'</initValue>
+      <name>FourCreate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Only one search result per page</description>
+      <initValue>'https://www.google.com/search?q=4Create&amp;num=1'</initValue>
+      <name>GoogleEnglish</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Only one search result per page</description>
+      <initValue>'https://www.google.rs/search?q=4Create&amp;num=1'</initValue>
+      <name>GoogleSRB</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
