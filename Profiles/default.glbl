@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Only one search result per page</description>
-      <initValue>'https://www.google.com/search?q=4Create&amp;num=1'</initValue>
+      <initValue>'https://www.google.com/search?q=4Create&amp;num=1&amp;hl=en'</initValue>
       <name>GoogleEnglish</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

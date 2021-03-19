@@ -4,18 +4,18 @@
    <name>TC-GoogleSearch-English_1</name>
    <tag>4Create</tag>
    <comment></comment>
-   <testCaseGuid>fa9232ae-1393-4466-9310-a2d2214b97b6</testCaseGuid>
+   <testCaseGuid>6ad1fd83-4676-43f9-a897-0a8c95645135</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>76ed5a8b-ac3c-44fa-8405-2557b575a601</id>
+      <id>08a29b64-eafc-4e0f-a78a-9db9e14c9e5f</id>
       <masked>false</masked>
       <name>urlEng</name>
    </variable>
    <variable>
       <defaultValue>'http://4createsoft.com/'</defaultValue>
       <description></description>
-      <id>f7417a65-2de4-4375-82bd-0cba5e4007af</id>
+      <id>0fc7a491-6ca4-4402-8486-8c8782b72bc0</id>
       <masked>false</masked>
       <name>url4Create</name>
    </variable>
