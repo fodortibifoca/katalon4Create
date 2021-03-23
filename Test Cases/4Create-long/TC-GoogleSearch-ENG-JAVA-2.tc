@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify first result of Google Serch (english) is http://4createsoft.com/.</description>
+   <name>TC-GoogleSearch-ENG-JAVA-2</name>
+   <tag>http://4createsoft.com/</tag>
+   <comment></comment>
+   <testCaseGuid>87c7d8bf-34dc-4525-a0a1-5740536c4a30</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aa7eedea-481c-44f9-8418-88a375708007</id>
+      <masked>false</masked>
+      <name>urlGoogleSearchENG</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b425d742-5991-43aa-92ce-70ff7928ff07</id>
+      <masked>false</masked>
+      <name>urls</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ecaf648c-0280-45f0-b634-d9645b87464a</id>
+      <masked>false</masked>
+      <name>link</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://4createsoft.com/'</defaultValue>
+      <description></description>
+      <id>2c9e2772-bfbd-4362-940b-2a49436a6026</id>
+      <masked>false</masked>
+      <name>urlStartsWith</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://4createsoft.com/'</defaultValue>
+      <description></description>
+      <id>b66b4a96-3bad-4c2f-9aa8-81a6e12e8c33</id>
+      <masked>false</masked>
+      <name>url4CreateExpected</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c75c1a6a-2f70-46eb-957d-8a1aba322224</id>
+      <masked>false</masked>
+      <name>url4CreateFromSite</name>
+   </variable>
+</TestCaseEntity>
