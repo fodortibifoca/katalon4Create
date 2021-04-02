@@ -40,26 +40,24 @@ System.out.println(urlGoogleSearchENG)
 
 String USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
 
-Document doc = Jsoup.connect(urlGoogleSearchENG).userAgent(USER_AGENT).get()
+Document document = Jsoup.connect(urlGoogleSearchENG).userAgent(USER_AGENT).get()
 
-for (Element link : doc.select("div.g a")) {
+// for (Element link : doc.select("div.g a")) {
 		
-		final String urls = link.attr("href");
+		// final String urls = link.attr("href");
 		
-		if(urls.startsWith(urlStartsWith)) {
+		// if(urls.startsWith(urlStartsWith)) {
 			
-			System.out.println("Prvi link Google Search-a je ---: " + urlStartsWith);
-		}
+			// System.out.println("Prvi link Google Search-a je ---: " + urlStartsWith);
+		// }
 
-}
+String firstUrl = document.select("div.g a").first().attr("href");
 
-WebUI.navigateToUrl(urlStartsWith)
+// WebUI.navigateToUrl(urlStartsWith)
 	
-WebUI.waitForPageLoad(1)
+// WebUI.waitForPageLoad(1)
 	
-url4CreateFromSite = WebUI.getUrl()
-	
-WebUI.verifyEqual(url4CreateExpected, url4CreateFromSite)
+WebUI.verifyEqual(url4CreateExpected, firstUrl)
 	
 WebUI.delay(1)
 	
